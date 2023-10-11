@@ -1,6 +1,6 @@
 # clima
 #Created by: Savio Martins
-A new Flutter project.
+
 
 ## Getting Started
 
