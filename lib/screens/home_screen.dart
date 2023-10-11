@@ -28,8 +28,10 @@ class DateDisplay extends StatelessWidget {
 class _HomeScreenState extends State<HomeScreen> {
   //Variveis
   String cityName = "";
+
   Future<Weather> fetchWeather(String city) async {
-    const apikey = "20b394807e3fed9e69c2decdc1a4f53d";
+    //Adicione sua chave :)
+    const apikey = "";
 
     final resp = await http.get(Uri.parse(
         'https://api.openweathermap.org/data/2.5/weather?q=$city&units=metric&appid=$apikey&lang=pt_br'));
